@@ -1,0 +1,50 @@
+.main-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.389)), url(../images/banners/gradient_header.png); 
+    min-height: 500px;
+    height: 50vh;
+    background-size: cover;
+  }
+
+  * {
+    border-radius: 0 !important;
+  }
+
+  .languages a:hover {
+    color: rgb(3, 3, 3);
+  }
+
+  .translate {
+    text-decoration: black;
+    color: black;
+    margin-right: 0.1rem;
+}
+
+.logos {
+  float: left;
+  width:  150px;
+  height: 50px;
+  object-fit: fill;
+}
+.card-img-top {
+  float: left;
+  width:  150px;
+  height: 50px;
+  object-fit: fill;
+}
+.container {
+  position: relative;
+  width: 980px;
+  margin:0 auto;
+}
+.tooltip.bs-tooltip-end .tooltip-arrow::before {
+  border-right-color: #a39161;
+}
+.tooltip.top .tooltip-inner {
+  background-color:red;
+}
+
+.slick-prev:before, .slick-next:before{
+  color:red;
+}
+::-moz-selection { color: #D9534F;  background: #fff; }
+::selection      { color: #D9534F;  background: #fff; } 

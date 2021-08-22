@@ -1,0 +1,37 @@
+/* css specifically for home-page.html */
+.main-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.389)), url(../images/banners/gradient_header.png); 
+  min-height: 600px;
+  height: 70vh;
+  background-size: cover;
+}
+
+.calendar {
+  background-color: rgba(0, 0, 0, 0.3);
+  min-height: 457px;
+}
+
+.frost {
+  background-color: #FFFFFF40;
+}
+
+.max-height-icons {
+  max-height: 100px;
+}
+
+.navbar-right {
+  float: right !important;
+  margin-left: 4rem;
+}
+
+.navbar-right a {
+  text-decoration: none;
+  margin: 0.2rem;
+  font-size: small;
+}
+@media (max-width: 768px) {
+  .main-image {
+    min-height: 300px;
+    height: 50vh;
+  }
+}

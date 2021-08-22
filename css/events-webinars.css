@@ -1,0 +1,30 @@
+/* css specifically for events-webinars.html */
+.main-image {
+  background-image: url(../images/banners/eventsbg.png); 
+  min-height: 500px;
+  height: 50vh;
+  background-size: cover;
+}
+
+.webinar-bg {
+  background-image: url(../images/governance.png);
+  min-height:300px;
+}
+
+.webinar-bg:hover {
+  background-image: none;
+  background-color: black;
+}
+
+.triangle {
+  position: relative;
+}
+
+.triangle::after {
+  display: block;
+  content: url(../images/icons/triangle.svg);
+  position: absolute;
+  left: 101%;
+  top: 0;
+  width: 60px;  
+}

@@ -1,0 +1,16 @@
+/* css specifically for contact-us.html */
+textarea {
+  resize: none;
+}
+
+.required::after {
+  content: ' *';
+  color: red;
+  font-size: 22px;
+}
+
+.not-required::after {
+  content: ' ';
+  font-size: 22px;
+}
+

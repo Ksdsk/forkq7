@@ -1,0 +1,74 @@
+body p {
+  font-size: 1.2rem;
+}
+
+header {
+  margin-bottom: 10rem;
+}
+
+.main-image {
+  margin-top: 12rem;
+}
+
+#logo, .searchbar {
+  padding-bottom: 2.5rem;
+}
+
+.searchbar {
+  max-width: 20rem;
+}
+
+.translate {
+    text-decoration: none;
+    color: white;
+    margin-right: 0.7rem;
+}
+
+.top-bar {
+    display: block;
+    width: 100%;
+    height: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.languages a {
+    float: right;
+    padding-top: .4rem;
+    font-size: medium;
+}
+
+.languages a:hover {
+  color: lightgrey;
+}
+
+@media (min-width: 992px) {
+  .ft-border-left {
+    border-left: 1px solid #b9bdcb;
+  }
+}
+
+@media (min-width: 768px) {
+  .ft-border-right {
+    border-right: 1px solid #b9bdcb;
+  }  
+}
+.opacity-100 {
+  opacity: 1;
+}
+
+.min-height-100 {
+  min-height: 100%;
+}
+
+.text-small {
+  font-size: .875rem !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-size: large;
+}
+
+

@@ -1,0 +1,11 @@
+/* css specifically for about-us.html */
+.thick-gold-border-bottom {
+  border-bottom: 15px solid #a39161;
+}
+
+.main-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.389)), url(../images/banners/aboutus.png); 
+  min-height: 500px;
+  height: 50vh;
+  background-size: cover;
+}

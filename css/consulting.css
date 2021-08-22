@@ -1,0 +1,12 @@
+.main-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.389)), url(../images/banners/gradient_header.png); 
+  min-height: 550px;
+  height: 50vh;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .no-border-till-md{
+    border: 0 !important;
+  }
+}
